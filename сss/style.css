@@ -440,6 +440,46 @@ a:hover.download-btn-now {
 	font-size: 2.25em;
 }
 
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	transition: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+
+}
+
+.icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+
+.icon-bar a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.whatsapp {
+	background: #30bb0e;
+	opacity: 0.6;
+	color: white;
+}
+
+.instagram {
+	background: #bb0e42;
+	opacity: 0.6;
+	color: white;
+}
+
+.google {
+	background: #0e7cbb;
+	opacity: 0.6;
+	color: white;
+}
+
 .ftremail {
 	width: 100%;
 	font-size: 0.75em;
