@@ -593,11 +593,11 @@ a:hover.download-btn-now {
 
 @media screen and (max-width:750px) {
 	.my-slider ul li h2 {
-	font-size: 22px;
+	font-size: 18px;
 }
 
 .my-slider ul li p {
-	font-size: 16px;
+	font-size: 12px;
 }
 }
 
