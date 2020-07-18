@@ -445,7 +445,6 @@ a:hover.download-btn-now {
 	top: 50%;
 	transition: translateY(-50%);
 	-webkit-transform: translateY(-50%);
-
 }
 
 .icon-bar a {
@@ -681,11 +680,26 @@ a.download-btn {
 @media screen and (max-width:480px) {
 	.my-slider ul li h2 {
 	top: 50px;
-	font-size: 1.275em;
+	font-size: 0.5em;
 }
 
 .my-slider ul li p {
-	top: 110px;
+	top: 90px;
+	line-height: 1;
+	text-align: center;
+}	
+
+
+a.download-btn {
+	color: #fff;
+	display: inline-block;
+	padding: 5px 10px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	font-size: 5px;
+	text-decoration: none;
+	font-weight: 600;
+	margin-top: 5px;
 }	
 
 .block4-main article {
